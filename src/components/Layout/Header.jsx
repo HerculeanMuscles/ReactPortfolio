@@ -1,6 +1,11 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 import Font from "react-font";
 import { Link } from "react-router-dom";
+import { AiFillBank } from "react-icons/ai";
+import { BsPersonWorkspace } from "react-icons/bs";
+import { GrServices } from "react-icons/gr";
+import { BiSolidContact } from "react-icons/bi";
+
 function Header() {
 	return (
 		<>
@@ -23,19 +28,21 @@ function Header() {
 					<Navbar.Collapse id="responsive-navbar-nav">
 						<Nav className="me-auto">
 							<Link to={"/About"} className="nav-link">
+								<AiFillBank />
 								About
 							</Link>
 							<Link to={"/Works"} className="nav-link">
+								<BsPersonWorkspace />
 								Works
 							</Link>
-							<Nav.Link href="#pricing">Services</Nav.Link>
-							<Nav.Link href="#pricing">Contact</Nav.Link>
-						</Nav>
-						<Nav>
-							<Nav.Link href="#deets">More deets</Nav.Link>
-							<Nav.Link eventKey={2} href="#memes">
-								Dank memes
-							</Nav.Link>
+							<Link to={"/Services"} className="nav-link">
+								<GrServices />
+								Services
+							</Link>
+							<Link to={"/Contact"} className="nav-link">
+								<BiSolidContact />
+								Contact
+							</Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>

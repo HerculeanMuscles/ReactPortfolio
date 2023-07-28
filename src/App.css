@@ -1,3 +1,5 @@
+@import url("https://unpkg.com/leaflet@1.6.0/dist/leaflet.css");
+
 .text-fun-pink:hover {
   color: #55acee;
   transition: top ease 0.5s;
