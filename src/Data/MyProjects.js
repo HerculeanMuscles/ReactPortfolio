@@ -11,4 +11,16 @@ export const MyProjects = [
 		link: "https://herculeanmuscles.github.io/HTML_Portfolio/",
 		image: "./git.png",
 	},
+	{
+		title: "HTML Portfolio",
+		desc: "Static HTML Portfolio",
+		link: "https://herculeanmuscles.github.io/HTML_Portfolio/",
+		image: "./git.png",
+	},
+	{
+		title: "HTML Portfolio",
+		desc: "Static HTML Portfolio",
+		link: "https://herculeanmuscles.github.io/HTML_Portfolio/",
+		image: "./git.png",
+	},
 ];
