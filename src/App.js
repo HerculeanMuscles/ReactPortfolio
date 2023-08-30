@@ -7,20 +7,43 @@ import About from "./components/Pages/About";
 import Works from "./components/Pages/Works";
 import Services from "./components/Pages/Services";
 import Contact from "./components/Pages/Contact";
+import Background from "./components/Layout/Background";
+
+// import Particles, { ISourceOptions, Main } from "react-tsparticles";
+// import { loadSeaAnemonePreset } from "tsparticles-preset-sea-anemone";
+//import Particles from "react-particles-js";
 
 function App() {
 	return (
 		<>
-			<Header />
-			<Routes>
-				<Route path={"/"} element={<Home />} />
-				<Route path={"/About"} element={<About />} />
-				<Route path={"/Works"} element={<Works />} />
-				<Route path={"/Contact"} element={<Contact />} />
-				<Route path={"/Services"} element={<Services />} />
-			</Routes>
+			<div className="home-container">
+				<Header />
 
-			<Footer />
+				<Routes>
+					<Route path={"/"} element={<Home />} />
+					<Route path={"/About"} element={<About />} />
+					<Route path={"/Works"} element={<Works />} />
+					<Route path={"/Contact"} element={<Contact />} />
+					<Route path={"/Services"} element={<Services />} />
+				</Routes>
+
+				<Footer />
+			</div>
+			<Background />
+
+			{/* <Particles
+				params={{
+					polygon: {
+						enable: true,
+						type: "inside",
+						move: {
+							radius: 10,
+						},
+						url: "./logo.svg",
+					},
+				}}
+			/> */}
+			{/* <Particles options={options} init={initialize} />; */}
 		</>
 	);
 }

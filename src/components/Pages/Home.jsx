@@ -5,7 +5,7 @@ import Typed from "react-typed";
 function Home() {
 	return (
 		<>
-			<Container className="text-center p-5 min-vh-100">
+			<Container className="text-center p-5 min-vh-100r">
 				<Row>
 					<h3>Hello,My name is Fahri and Welcome to my website</h3>
 				</Row>
@@ -22,6 +22,7 @@ function Home() {
 					<p>I am a Full-Stack Developer and a Software engineer</p>
 				</Row>
 			</Container>
+			{/* <Background /> */}
 		</>
 	);
 }
