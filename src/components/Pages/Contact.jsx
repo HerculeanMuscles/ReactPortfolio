@@ -1,6 +1,7 @@
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
+import Button from "react-bootstrap/Button";
 
 function Contact() {
 	return (
@@ -29,6 +30,10 @@ function Contact() {
 							<Form.Control as="textarea" rows={3} />
 						</Form.Group>
 					</Row>
+
+					<Button variant="primary" type="submit">
+						Submit
+					</Button>
 				</Form>
 			</div>
 		</>
