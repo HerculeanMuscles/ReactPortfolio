@@ -8,7 +8,7 @@ import "./style/About.css";
 function About() {
 	return (
 		<>
-			<Container>
+			<Container className="text-light fw-bolder">
 				<Row>
 					<Col className="text-center" sm={8}>
 						<br />

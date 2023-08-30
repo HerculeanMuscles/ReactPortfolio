@@ -5,7 +5,7 @@ import Typed from "react-typed";
 function Home() {
 	return (
 		<>
-			<Container className="text-center p-5 min-vh-100r">
+			<Container className="text-center p-5 min-vh-100r text-light fw-bolder">
 				<Row>
 					<h3>Hello,My name is Fahri and Welcome to my website</h3>
 				</Row>
