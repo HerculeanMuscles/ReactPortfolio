@@ -30,20 +30,6 @@ function App() {
 				<Footer />
 			</div>
 			<Background />
-
-			{/* <Particles
-				params={{
-					polygon: {
-						enable: true,
-						type: "inside",
-						move: {
-							radius: 10,
-						},
-						url: "./logo.svg",
-					},
-				}}
-			/> */}
-			{/* <Particles options={options} init={initialize} />; */}
 		</>
 	);
 }
